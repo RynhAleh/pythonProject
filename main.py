@@ -9,12 +9,7 @@ def _roll_dice():
         print('%3i:' % i, val[0], val[1], val[2], val[3])
         if val[0] == val[1] == val[2] == val[3]:
             return 'Вы выкинули %i/%i/%i/%i с %i-й попытки.' % (val[0], val[1], val[2], val[3], i)
-        else:
-            pass
 
 
 print('Кидаем кубик:')
 print(_roll_dice())
-print('Вот такие дела.')
-print('ну или что-то вроде этого')
-print('(это когда хотят сказать "ну как-то так")')
